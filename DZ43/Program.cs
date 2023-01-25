@@ -29,3 +29,9 @@ void findingXy (double b1, double b2, double k1, double k2)
 double x = (b2-b1)/(k1-k2);
 double y = k1*x+b1;
 Console.WriteLine($"Точка пересечения двух прямых = ({x}; {y})");
+}
+double b1 = GetNumberFromConsole("Введите значение b1");
+double b2 = GetNumberFromConsole("Введите значение b2");
+double k1 = GetNumberFromConsole("Введите значение k1");
+double k2 = GetNumberFromConsole("Введите значение k2");
+findingXy(b1, b2, k1, k2);
